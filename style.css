@@ -1,0 +1,59 @@
+body {
+    margin: auto;
+    background-color: hsl(186, 100%, 90%);
+    width: 900px;
+    color: rgb(16, 176, 235);
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6eb;
+    border: 5px solid hsl(175, 100%, 91%);
+    border-radius: 10%;
+    margin: 5px 0px;
+}
+
+.board {
+    width: 400px;
+    height: 320px;
+    margin: auto;
+    display: grid;
+}
+
+.buttons {
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: rgb(16, 176, 235);
+    background-color: white;
+    border: 1px solid rgb(16, 176, 235);
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
